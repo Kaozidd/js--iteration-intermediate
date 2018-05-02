@@ -17,18 +17,17 @@
  *      => false // the double-letters have to be next to eachother
 **/
 
-function hasDoubleLetters(string) {
-  let bool = false;
-  let lowStr = string.toLowerCase();
-  const newArr = lowStr.split("");
-  for (let i=0; i<newArr.length; i++) {
-    if (newArr[i] === newArr[i-1]) {
-      bool = true;
-    }
-  }
-  return bool;
-}
 
+
+
+
+// YOUR CODE HERE !!! 
+
+
+
+
+
+///////////////////////
 console.group('JS Iterations Week');
   console.log('Function: hasDoubleLetters', 'background-color: green; color: white')
   console.groupCollapsed('Should return true for "shutter"');

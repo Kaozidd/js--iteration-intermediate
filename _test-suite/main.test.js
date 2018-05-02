@@ -103,10 +103,6 @@ describe('sumDigits()', function() {
 });
 
 describe('hasComplements()', function() {
-  before(function() {
-    this.oddsArray = [1, 3, 5, 7, 9, 11, 13];
-  });
-
   it('should be a function', function() {
     return expect(hasComplements).to.be.a('function');
   });

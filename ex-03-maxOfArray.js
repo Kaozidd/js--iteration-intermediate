@@ -7,16 +7,16 @@
 **/
 
 
-function maxOfArray(array) {
-  let maxNum = 0;
-  for (let i=0; i<array.length; i++) {
-    if (array[i]>maxNum) {
-      maxNum = array[i];
-    }
-  }
-  return maxNum;
-}
 
+
+
+// YOUR CODE HERE !!! 
+
+
+
+
+
+///////////////////////
 console.group('JS Iterations Week');
   console.log('%cFunction: maxOfArray', 'background-color: green; color: white')
   console.groupCollapsed('Should return 21 for the next [2, 7, 3, 4, 21, 0] series');

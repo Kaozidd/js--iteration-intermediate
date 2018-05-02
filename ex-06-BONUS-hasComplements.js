@@ -13,21 +13,16 @@
 */
 
 
-function hasComplements(n, array) {
-  let bool = false;
-  for (let i=0; i<array.length; i++) {
-    for (let t=0; t<array.length; t++) {
-      if (array[i]+array[t]===n) {
-        bool = true
-      }
-    } 
-  }
-  return bool;
-}
 
-var oddsArray = [1, 3, 5, 7, 9, 11, 13]
-var anotherArray = [2, 5, 6, 8, 12]
 
+
+// YOUR CODE HERE !!! 
+
+
+
+
+
+///////////////////////
 console.group('JS Iterations Week');
   console.log('%cFunction: hasComplements', 'background-color: green; color: white')
   console.groupCollapsed('Should return true for 6');
