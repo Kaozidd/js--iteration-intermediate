@@ -14,7 +14,7 @@ cd js-iteration-intermediate
 
 
 # (2) Download the assignment-files with curl from the assignment repo and unzip
-curl https://raw.githubusercontent.com/kaozidd/assignment--js-iteration-intermediate/master/assignment-files.zip > assignment-files.zip
+curl https://raw.githubusercontent.com/Kaozidd/assignment--js-iteration-intermediate/master/assignment-files.zip > assignment-files.zip
 
 unzip assignment-files.zip
 ```
